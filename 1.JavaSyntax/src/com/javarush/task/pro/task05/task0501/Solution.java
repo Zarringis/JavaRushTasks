@@ -6,6 +6,7 @@ package com.javarush.task.pro.task05.task0501;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите матут ваш код
+        int[] intArray = new int[10];
+        double[] doubleArray = new double[10];
     }
 }

@@ -5,7 +5,6 @@ import java.util.Scanner;
 /* 
 Минимальное из N чисел
 */
-//TODO тестирование не прошло
 public class Solution {
     public static int[] array;
 
@@ -14,16 +13,12 @@ public class Solution {
         int N = console.nextInt();
         array = new int[N];
         for (int i = 0; i < N; i++) {
-            array[i] = console.nextInt(); // заполняем массив элементами
-        }
-        for (int i = 0; i < N; i++) {
-            System.out.println(array[i]); // выводит массив
+            array[i] = console.nextInt(); // заполняет массив элементами
         }
         int min = array[0];
-
         for (int i = 0; i < N; i++) {
             if (array[i] < min)
-                min = array[i];
+                min = array[i]; //выводит минимальное число элемента массива
         }
         System.out.println(min);
     }
